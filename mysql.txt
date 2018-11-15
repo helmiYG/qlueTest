@@ -1,0 +1,11 @@
+=== create table assessment ====
+create table assessment(id int, date dateTime, username varchar(128), score float);
+
+==== positive score ====
+SELECT COUNT(id) as 'jumlah positive' FROM assessment WHERE score > 0 AND score BETWEEN '2011-03-01' AND '2011-04-01'
+
+====  minus score ====
+SELECT COUNT(id) as 'jumlah positive' FROM assessment WHERE score < 0 AND score BETWEEN '2011-03-01' AND '2011-04-01'
+
+===== get day which score is positive from January 1st, 2011 and June 30th, 2011 ========
+SELECT date FROM assessment WHERE score > 0 AND date BETWEEN '2011-01-01' AND '2011-06-01'
