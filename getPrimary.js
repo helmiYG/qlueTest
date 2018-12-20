@@ -12,6 +12,7 @@ function getPrimes(num) {
     console.log(primes)
     console.log(primes,'2');
     console.log(primes, '3');
+    console.log(primes, '4');
     
     
     return primes
