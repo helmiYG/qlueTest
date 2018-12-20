@@ -9,7 +9,7 @@ function getPrimes(num) {
             primes.push(i)
         }
     }
-
+    
     return primes
 }
 
