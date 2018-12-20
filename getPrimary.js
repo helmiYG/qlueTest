@@ -9,7 +9,9 @@ function getPrimes(num) {
             primes.push(i)
         }
     }
-    console.log(primes);
+    console.log(primes)
+    console.log(primes,'2');
+    ;
     
     return primes
 }
