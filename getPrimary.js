@@ -12,6 +12,7 @@ function getPrimes(num) {
     console.log(primes, 'test')
     console.log(primes, 'test2');
     console.log(primes, 'after reset hard');
+    console.log(primes, 'after reset hard2');
     
     return primes
 }
