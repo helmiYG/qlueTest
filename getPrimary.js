@@ -10,6 +10,7 @@ function getPrimes(num) {
         }
     }
     console.log(primes, 'test')
+    console.log(primes, 'test2');
     
     return primes
 }
